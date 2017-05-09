@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements Iview{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+        //李雁鹏是只猪
 
     }
 
@@ -39,5 +40,6 @@ public class MainActivity extends AppCompatActivity implements Iview{
         mrecycler.setLayoutManager(new LinearLayoutManager(MainActivity.this));
         mrecycler.addItemDecoration(new DividerItemDecoration(MainActivity.this, DividerItemDecoration.VERTICAL));
         mrecycler.setAdapter(new ListRecy(MainActivity.this,others));
+
     }
 }
