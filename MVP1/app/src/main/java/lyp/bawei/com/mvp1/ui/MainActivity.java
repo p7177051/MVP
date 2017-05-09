@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements Iview{
         MainPre mainPre = new MainPre(this);
         mainPre.getData();
     }
-//赵倩是猪 我喜欢猪
+//赵倩是猪 老母猪
     @Override
     public void showData(MainModelBean mainModelBean) {
         List<MainModelBean.OthersBean> others = mainModelBean.others;
